@@ -1,0 +1,43 @@
+{
+  "asian": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "america": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "africa": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "europe": {
+    "about": { 
+      "id": 0, 
+      "banner": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80",
+      "title": "Europa", 
+      "bio": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural o, mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+      "info": {
+        "countries": 50,
+        "languages": 60,
+        "cities": 27
+      }
+    },
+    "cities": [
+      { 
+        "id": 1, 
+        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Londres",
+        "country": "Reino Unido",
+        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+      },
+      {
+        "id": 2, 
+        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Londres",
+        "country": "Reino Unido",
+        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+      }
+    ]
+  },
+  "oceania": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ]
+}
