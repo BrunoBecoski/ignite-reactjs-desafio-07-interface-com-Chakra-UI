@@ -1,23 +1,55 @@
 {
-  "asian": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "america": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "africa": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "europe": {
+  "asian": {
     "about": { 
-      "id": 0, 
-      "banner": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80",
-      "title": "Europa", 
-      "bio": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural o, mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+      "banner": "https://images.unsplash.com/photo-1592880486029-da96bcf1c56f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80",
+      "title": "Ásia", 
+      "bio": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering. O ponto extremo setentrional do continente está localizado no oceano Glacial Ártico. Mas na parte meridional, a Ásia chega ao seu final na região mais quente dos trópicos, nas imediações da linha do equador.",
       "info": {
-        "countries": 50,
-        "languages": 60,
-        "cities": 27
+        "countries": 49,
+        "languages": 2.301,
+        "cities": "+ q 1"
+      }
+    },
+    "cities": [
+      { 
+        "id": 1, 
+        "image": "https://images.unsplash.com/photo-1601816591587-0e74b930e5cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Hong kong",
+        "country": "China",
+        "flag": "https://cdn.countryflags.com/thumbs/china/flag-800.png" 
+      },
+      {
+        "id": 2, 
+        "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Bangkok",
+        "country": "Tailândia",
+        "flag": "https://cdn.countryflags.com/thumbs/thailand/flag-800.png" 
+      },
+      {
+        "id": 3, 
+        "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Singapura",
+        "country": "Singapura",
+        "flag": "https://cdn.countryflags.com/thumbs/singapore/flag-800.png" 
+      },
+      {
+        "id": 4, 
+        "image": "https://images.unsplash.com/photo-1528702748617-c64d49f918af?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Dubai",
+        "country": "Emirados Árabes Unidos",
+        "flag": "https://cdn.countryflags.com/thumbs/united-arab-emirates/flag-800.png" 
+      }
+    ]
+  },
+  "america": {
+    "about": { 
+      "banner": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80",
+      "title": "América", 
+      "bio": "América é o continente localizado no hemisfério ocidental e que se estende, no sentido norte-sul, desde o oceano Ártico até o cabo Horn, ao longo de cerca de 15 mil quilômetros. O seu extremo oriental insular encontra-se na Groenlândia, o Nordostrundingen, enquanto o ocidental localiza-se nas Aleutas. Já os extremos continentais são o cabo Príncipe de Gales, o extremo ocidental, no Alasca, e a ponta do Seixas, extremo oriental, no estado brasileiro da Paraíba. A América compõe-se de duas massas de dimensões continentais ligadas por um istmo que é cortado por um canal.",
+      "info": {
+        "countries": 35,
+        "languages": 1.064,
+        "cities": "+ q 1"
       }
     },
     "cities": [
@@ -37,7 +69,88 @@
       }
     ]
   },
-  "oceania": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ]
+  "africa": {
+    "about": { 
+      "banner": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80",
+      "title": "África", 
+      "bio": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes. Tem se transformado na ultima década em uma continente cada vez mais católico.",
+      "info": {
+        "countries": 54,
+        "languages": 2.138,
+        "cities": "+ q 1"
+      }
+    },
+    "cities": [
+      { 
+        "id": 1, 
+        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Londres",
+        "country": "Reino Unido",
+        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+      },
+      {
+        "id": 2, 
+        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Londres",
+        "country": "Reino Unido",
+        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+      }
+    ]
+  },
+  "europe": {
+    "about": { 
+      "banner": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80",
+      "title": "Europa", 
+      "bio": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste. A Europa é limitada pelo oceano Glacial Ártico e outros corpos de água no norte, pelo oceano Atlântico a oeste, pelo mar Mediterrâneo ao sul, e pelo mar Negro e por vias navegáveis interligadas ao sudeste.",
+      "info": {
+        "countries": 50,
+        "languages": 286,
+        "cities": "+ q 1"
+      }
+    },
+    "cities": [
+      { 
+        "id": 1, 
+        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Londres",
+        "country": "Reino Unido",
+        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+      },
+      {
+        "id": 2, 
+        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Londres",
+        "country": "Reino Unido",
+        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+      }
+    ]
+  },
+  "oceania": {
+    "about": { 
+      "banner": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80",
+      "title": "Oceania", 
+      "bio": "Oceania ou Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville. O termo é usado hoje em vários idiomas para designar uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes.",
+      "info": {
+        "countries": 50,
+        "languages": 1.313,
+        "cities": "+ q 1"
+      }
+    },
+    "cities": [
+      { 
+        "id": 1, 
+        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Londres",
+        "country": "Reino Unido",
+        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+      },
+      {
+        "id": 2, 
+        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Londres",
+        "country": "Reino Unido",
+        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+      }
+    ]
+  }
 }
