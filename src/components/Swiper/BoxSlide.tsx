@@ -3,15 +3,16 @@ import Link from 'next/link'
 
 interface BoxSlideProps {
   url: string;
+  href: string;
   title: string;
 }
 
-export function BoxSlide({ url, title }: BoxSlideProps) {
+export function BoxSlide({ url, href, title }: BoxSlideProps) {
   const urlFormat = `url(${url})`
 
   return (
 
-    <Link href="title">
+    <Link href={href}>
       <Box
       cursor="pointer"
         bgImage={urlFormat}

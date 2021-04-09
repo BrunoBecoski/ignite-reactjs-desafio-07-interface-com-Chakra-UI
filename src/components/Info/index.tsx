@@ -1,6 +1,16 @@
 import { Box, Flex, Image, Text, Tooltip } from "@chakra-ui/react";
 
-export function Info() {
+interface InfoProps {
+  bio: string;
+  allCities: number;
+  info: {
+    countries: number;
+    languages: number;
+    cities: number;
+  }
+}
+
+export function Info({ bio,  allCities, info }: InfoProps) {
   return (
     <Flex
       justify="space-between"
@@ -12,12 +22,7 @@ export function Info() {
         align="justify"
         maxWidth="35rem"
       >
-        A Europa é, por convenção, um dos seis 
-        continentes do mundo. Compreendendo a 
-        península ocidental da Eurásia, a Europa
-        geralmente divide-se da Ásia a leste pela 
-        divisória de águas dos montes Urais, o rio Ural o,
-        mar Cáspio, o Cáucaso, e o mar Negro a sudeste 
+        {bio} 
       </Text>
 
       <Flex
@@ -36,9 +41,11 @@ export function Info() {
             lineHeight="5rem"
             align="center"
           >
-            50
+            {info.countries}
           </Text>
-          <Text>países</Text>
+          <Text
+            align="center"
+          >países</Text>
         </Box>
         <Box>
           <Text 
@@ -47,9 +54,11 @@ export function Info() {
             lineHeight="5rem"
             align="center"
           >
-            60
+            {info.languages}
           </Text>
-          <Text>línguas</Text>
+          <Text
+            align="center"
+          >línguas</Text>
         </Box>
         <Box>
           <Text
@@ -58,13 +67,14 @@ export function Info() {
             lineHeight="5rem"
             align="center"
           >
-            27
+            {allCities}
           </Text>
           <Text
             display="flex"
+            align="center"
           >
-            cidades +100
-            <Tooltip label="País pra caramba">
+            + 100 cidades
+            <Tooltip label={info.cities}>
               <Image
                 ml="1"
                 display="inline"

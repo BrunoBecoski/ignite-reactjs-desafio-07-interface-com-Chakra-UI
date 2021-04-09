@@ -1,13 +1,13 @@
 {
-  "asian": {
+  "asia": {
     "about": { 
       "banner": "https://images.unsplash.com/photo-1592880486029-da96bcf1c56f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80",
       "title": "Ásia", 
-      "bio": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering. O ponto extremo setentrional do continente está localizado no oceano Glacial Ártico. Mas na parte meridional, a Ásia chega ao seu final na região mais quente dos trópicos, nas imediações da linha do equador.",
+      "bio": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial.",
       "info": {
         "countries": 49,
         "languages": 2.301,
-        "cities": "+ q 1"
+        "cities": "+ q 16"
       }
     },
     "cities": [
@@ -16,96 +16,208 @@
         "image": "https://images.unsplash.com/photo-1601816591587-0e74b930e5cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
         "city": "Hong kong",
         "country": "China",
-        "flag": "https://cdn.countryflags.com/thumbs/china/flag-800.png" 
+        "flag": "https://cdn.countryflags.com/thumbs/china/flag-round-250.png" 
       },
       {
         "id": 2, 
         "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
         "city": "Bangkok",
         "country": "Tailândia",
-        "flag": "https://cdn.countryflags.com/thumbs/thailand/flag-800.png" 
+        "flag": "https://cdn.countryflags.com/thumbs/thailand/flag-round-250.png" 
       },
       {
         "id": 3, 
         "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
         "city": "Singapura",
         "country": "Singapura",
-        "flag": "https://cdn.countryflags.com/thumbs/singapore/flag-800.png" 
+        "flag": "https://cdn.countryflags.com/thumbs/singapore/flag-round-250.png" 
       },
       {
         "id": 4, 
         "image": "https://images.unsplash.com/photo-1528702748617-c64d49f918af?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
         "city": "Dubai",
         "country": "Emirados Árabes Unidos",
-        "flag": "https://cdn.countryflags.com/thumbs/united-arab-emirates/flag-800.png" 
+        "flag": "https://cdn.countryflags.com/thumbs/united-arab-emirates/flag-round-250.png" 
+      },
+      {
+        "id": 5, 
+        "image": "https://images.unsplash.com/photo-1581792343403-f3201559d559?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Kuala Lumpur",
+        "country": "Malásia",
+        "flag": "https://cdn.countryflags.com/thumbs/malaysia/flag-round-250.png" 
+      },
+      {
+        "id": 6, 
+        "image": "https://images.unsplash.com/photo-1527838832700-5059252407fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Istambul",
+        "country": "Turquia",
+        "flag": "https://cdn.countryflags.com/thumbs/turkey/flag-round-250.png" 
+      },
+      {
+        "id": 7, 
+        "image": "https://images.unsplash.com/photo-1546492040-eec05476d173?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&auto=format&fit=crop&w=256&q=80",
+        "city": "Delhi",
+        "country": "Índia",
+        "flag": "https://cdn.countryflags.com/thumbs/india/flag-round-250.png"
+      },
+      {
+        "id": 8, 
+        "image": "https://images.unsplash.com/photo-1532236204992-f5e85c024202?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Tóquio",
+        "country": "Japão",
+        "flag": "https://cdn.countryflags.com/thumbs/japan/flag-round-250.png"
+      },
+      {
+        "id": 9, 
+        "image": "https://images.unsplash.com/photo-1604928594151-4c62e028b2b1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Taipé",
+        "country": "Taiwan",
+        "flag": "https://cdn.countryflags.com/thumbs/taiwan/flag-round-250.png"
+      },
+      {
+        "id": 10, 
+        "image": "https://images.unsplash.com/photo-1580418827493-f2b22c0a76cb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&auto=format&fit=crop&w=256&q=80",
+        "city": "Meca",
+        "country": "Arábia Saudita",
+        "flag": "https://cdn.countryflags.com/thumbs/saudi-arabia/flag-round-250.png"
+      },
+      {
+        "id": 11, 
+        "image": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Seul",
+        "country": "Coreia do Sul",
+        "flag": "https://cdn.countryflags.com/thumbs/south-korea/flag-round-250.png"
+      },
+      {
+        "id": 12, 
+        "image": "https://images.unsplash.com/photo-1589394857527-07c9c14fc87f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Ho Chi Ninh",
+        "country": "Vietnã",
+        "flag": "https://cdn.countryflags.com/thumbs/vietnam/flag-round-250.png"
+      },
+      {
+        "id": 13, 
+        "image": "https://images.unsplash.com/photo-1611813129102-5581ca61711a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Denpasar",
+        "country": "Indonésia",
+        "flag": "https://cdn.countryflags.com/thumbs/indonesia/flag-round-250.png"
+      },
+      {
+        "id": 14, 
+        "image": "https://images.unsplash.com/photo-1542743408-218cc173cda0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&auto=format&fit=crop&w=256&q=80",
+        "city": "Jerusalém",
+        "country": "Israel",
+        "flag": "https://cdn.countryflags.com/thumbs/israel/flag-round-250.png"
+      },
+      {
+        "id": 15, 
+        "image": "https://images.unsplash.com/photo-1558029573-2de0fd6f62f9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&auto=format&fit=crop&w=256&q=80",
+        "city": "Cebu",
+        "country": "Filipinas",
+        "flag": "https://cdn.countryflags.com/thumbs/philippines/flag-round-250.png"
       }
     ]
   },
   "america": {
     "about": { 
-      "banner": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80",
+      "banner": "https://images.unsplash.com/photo-1526604648377-1433c7c1f5b7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&auto=format&fit=crop&w=1440&q=80",
       "title": "América", 
-      "bio": "América é o continente localizado no hemisfério ocidental e que se estende, no sentido norte-sul, desde o oceano Ártico até o cabo Horn, ao longo de cerca de 15 mil quilômetros. O seu extremo oriental insular encontra-se na Groenlândia, o Nordostrundingen, enquanto o ocidental localiza-se nas Aleutas. Já os extremos continentais são o cabo Príncipe de Gales, o extremo ocidental, no Alasca, e a ponta do Seixas, extremo oriental, no estado brasileiro da Paraíba. A América compõe-se de duas massas de dimensões continentais ligadas por um istmo que é cortado por um canal.",
+      "bio": "América é o continente localizado no hemisfério ocidental e que se estende, no sentido norte-sul, desde o oceano Ártico até o cabo Horn, ao longo de cerca de 15 mil quilômetros.",
       "info": {
         "countries": 35,
         "languages": 1.064,
-        "cities": "+ q 1"
+        "cities": "+ q 7"
       }
     },
     "cities": [
       { 
         "id": 1, 
-        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
-        "city": "Londres",
-        "country": "Reino Unido",
-        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+        "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Nova Iorque",
+        "country": "Estados Unidos da América",
+        "flag": "https://cdn.countryflags.com/thumbs/united-states-of-america/flag-round-250.png" 
       },
-      {
+      { 
         "id": 2, 
-        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
-        "city": "Londres",
-        "country": "Reino Unido",
-        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+        "image": "https://images.unsplash.com/photo-1552074284-5e88ef1aef18?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&auto=format&fit=crop&w=256&q=80",
+        "city": "Cancún",
+        "country": "México",
+        "flag": "https://cdn.countryflags.com/thumbs/mexico/flag-round-250.png" 
+      },
+      { 
+        "id": 3, 
+        "image": "https://images.unsplash.com/photo-1490623970972-ae8bb3da443e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&auto=format&fit=crop&w=256&q=80",
+        "city": "Toronto",
+        "country": "Canadá",
+        "flag": "https://cdn.countryflags.com/thumbs/canada/flag-round-250.png" 
+      },
+      { 
+        "id": 4, 
+        "image": "https://images.unsplash.com/photo-1600627094717-809e6a3f29f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "flag": "https://cdn.countryflags.com/thumbs/argentina/flag-round-250.png" 
+      },
+      { 
+        "id": 5, 
+        "image": "https://images.unsplash.com/photo-1531968455001-5c5272a41129?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Lima",
+        "country": "Peru",
+        "flag": "https://cdn.countryflags.com/thumbs/peru/flag-round-250.png" 
+      },
+      { 
+        "id": 6, 
+        "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Rio de Janeiro",
+        "country": "Brasil",
+        "flag": "https://cdn.countryflags.com/thumbs/brazil/flag-round-250.png" 
       }
     ]
   },
   "africa": {
     "about": { 
-      "banner": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80",
+      "banner": "https://images.unsplash.com/photo-1613496614008-0f481526843f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80",
       "title": "África", 
-      "bio": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes. Tem se transformado na ultima década em uma continente cada vez mais católico.",
+      "bio": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas.",
       "info": {
         "countries": 54,
         "languages": 2.138,
-        "cities": "+ q 1"
+        "cities": "+ q 4"
       }
     },
     "cities": [
       { 
         "id": 1, 
-        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
-        "city": "Londres",
-        "country": "Reino Unido",
-        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+        "image": "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&auto=format&fit=crop&w=256&q=80",
+        "city": "Cairo",
+        "country": "Egito",
+        "flag": "https://cdn.countryflags.com/thumbs/egypt/flag-round-250.png" 
       },
       {
         "id": 2, 
-        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
-        "city": "Londres",
-        "country": "Reino Unido",
-        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+        "image": "https://images.unsplash.com/photo-1577948000111-9c970dfe3743?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Johnesburgo",
+        "country": "África do Sul",
+        "flag": "https://cdn.countryflags.com/thumbs/south-africa/flag-round-250.png" 
+      },
+      { 
+        "id": 3, 
+        "image": "https://images.unsplash.com/photo-1545041552-becc2efcccc4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Marrakech",
+        "country": "Marrocos",
+        "flag": "https://cdn.countryflags.com/thumbs/morocco/flag-round-250.png" 
       }
     ]
   },
   "europe": {
     "about": { 
-      "banner": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80",
+      "banner": "https://images.unsplash.com/photo-1531561452248-84db55b6d9a2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80",
       "title": "Europa", 
-      "bio": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste. A Europa é limitada pelo oceano Glacial Ártico e outros corpos de água no norte, pelo oceano Atlântico a oeste, pelo mar Mediterrâneo ao sul, e pelo mar Negro e por vias navegáveis interligadas ao sudeste.",
+      "bio": "Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
       "info": {
         "countries": 50,
         "languages": 286,
-        "cities": "+ q 1"
+        "cities": "+ q 19"
       }
     },
     "cities": [
@@ -114,42 +226,154 @@
         "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
         "city": "Londres",
         "country": "Reino Unido",
-        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+        "flag": "https://cdn.countryflags.com/thumbs/united-kingdom/flag-round-250.png" 
       },
       {
         "id": 2, 
-        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
-        "city": "Londres",
-        "country": "Reino Unido",
-        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+        "image": "https://images.unsplash.com/photo-1549144511-f099e773c147?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&auto=format&fit=crop&w=256&q=80",
+        "city": "Paris",
+        "country": "França",
+        "flag": "https://cdn.countryflags.com/thumbs/france/flag-round-250.png" 
+      },
+      {
+        "id": 3, 
+        "image": "https://images.unsplash.com/photo-1527838832700-5059252407fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Istambul",
+        "country": "Turquia",
+        "flag": "https://cdn.countryflags.com/thumbs/turkey/flag-round-250.png" 
+      },
+      {
+        "id": 4, 
+        "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&auto=format&fit=crop&w=256&q=80",
+        "city": "Roma",
+        "country": "Itália",
+        "flag": "https://cdn.countryflags.com/thumbs/italy/flag-round-250.png" 
+      },
+      {
+        "id": 5, 
+        "image": "https://images.unsplash.com/photo-1564511287568-54483b52a35e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Praga",
+        "country": "Tchéquia",
+        "flag": "https://cdn.countryflags.com/thumbs/czech-republic/flag-round-250.png" 
+      },
+      {
+        "id": 6, 
+        "image": "https://images.unsplash.com/photo-1558551649-e44c8f992010?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Amsterdã",
+        "country": "Países Baixos",
+        "flag": "https://cdn.countryflags.com/thumbs/netherlands/flag-round-250.png" 
+      },
+      {
+        "id": 7, 
+        "image": "https://images.unsplash.com/photo-1587789202069-f57c846b85db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Barcelona",
+        "country": "Espanha",
+        "flag": "https://cdn.countryflags.com/thumbs/spain/flag-round-250.png" 
+      },
+      {
+        "id": 8, 
+        "image": "https://images.unsplash.com/photo-1573167443175-867d91708f97?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Viena",
+        "country": "Áustria",
+        "flag": "https://cdn.countryflags.com/thumbs/austria/flag-round-250.png" 
+      },
+      {
+        "id": 9, 
+        "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&auto=format&fit=crop&w=256&q=80",
+        "city": "Berlim",
+        "country": "Alemanha",
+        "flag": "https://cdn.countryflags.com/thumbs/germany/flag-round-250.png" 
+      },
+      {
+        "id": 10, 
+        "image": "",
+        "city": "",
+        "country": "",
+        "flag": "" 
+      },
+      {
+        "id": 11, 
+        "image": "",
+        "city": "",
+        "country": "",
+        "flag": "" 
+      },
+      {
+        "id": 12, 
+        "image": "",
+        "city": "",
+        "country": "",
+        "flag": "" 
+      },
+      {
+        "id": 13, 
+        "image": "",
+        "city": "",
+        "country": "",
+        "flag": "" 
+      },
+      {
+        "id": 14, 
+        "image": "",
+        "city": "",
+        "country": "",
+        "flag": "" 
+      },
+      {
+        "id": 15, 
+        "image": "",
+        "city": "",
+        "country": "",
+        "flag": "" 
+      },
+      {
+        "id": 16, 
+        "image": "",
+        "city": "",
+        "country": "",
+        "flag": "" 
+      },
+      {
+        "id": 17, 
+        "image": "",
+        "city": "",
+        "country": "",
+        "flag": "" 
+      },
+      {
+        "id": 18, 
+        "image": "",
+        "city": "",
+        "country": "",
+        "flag": "" 
       }
     ]
   },
   "oceania": {
     "about": { 
-      "banner": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80",
+      "banner": "https://images.unsplash.com/photo-1515482758760-9535c2f0a18c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&auto=format&fit=crop&w=1440&q=80",
       "title": "Oceania", 
-      "bio": "Oceania ou Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville. O termo é usado hoje em vários idiomas para designar uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes.",
+      "bio": "Oceania ou Oceânia é uma região geográfica uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes.",
       "info": {
         "countries": 50,
         "languages": 1.313,
-        "cities": "+ q 1"
+        "cities": "+ q 3"
       }
     },
     "cities": [
       { 
         "id": 1, 
-        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
-        "city": "Londres",
-        "country": "Reino Unido",
-        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+        "image": "https://images.unsplash.com/photo-1528072164453-f4e8ef0d475a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&auto=format&fit=crop&w=256&q=80",
+        "city": "Sydnei",
+        "country": "Austrália",
+        "flag": "https://cdn.countryflags.com/thumbs/australia/flag-round-250.png" 
       },
       {
         "id": 2, 
-        "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
-        "city": "Londres",
-        "country": "Reino Unido",
-        "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617747234~hmac=5641a6cada8b7297e593903643cc56ad" 
+        "image": "https://images.unsplash.com/photo-1600208669687-f19af3638cb9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+        "city": "Auckland",
+        "country": "Nova Zelândia",
+        "flag": "https://cdn.countryflags.com/thumbs/new-zealand/flag-round-250.png" 
       }
     ]
   }

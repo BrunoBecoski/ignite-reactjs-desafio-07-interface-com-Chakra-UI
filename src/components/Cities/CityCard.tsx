@@ -16,6 +16,9 @@ export function CityCard({ image, city, country, flag}: CityCardProps) {
       <Image 
         src={image} 
         borderTopRadius="4px"
+        h="40"
+        w="64"
+        objectFit="cover"
       />
       <Flex
         bg="light.white"
@@ -40,8 +43,7 @@ export function CityCard({ image, city, country, flag}: CityCardProps) {
           >{country}</Text>
         </Box>
         <Image 
-          w="30px"
-          borderRadius="50%"
+          boxSize="30px"
           src={flag}
         />
       </Flex>

@@ -27,8 +27,8 @@ export function Header() {
         align="center"
         src="/images/logo.svg" 
         alt="Logo" 
-        h="45px"
-        my="7"
+        h={["20px", "30px", "45px"]}
+        my={["4", "5", "7"]}
         />
     </>
   );
