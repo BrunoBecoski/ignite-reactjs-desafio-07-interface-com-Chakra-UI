@@ -14,9 +14,9 @@ export function Header() {
           cursor="pointer"
           alt="Voltar"
           src="/images/back.svg"
-          ml="36"
-          mt="10"
-          w="8px"
+          ml={["16", "20", "36"]}
+          mt={["6", "7", "10"]}
+          w={["4px", "6px", "8px"]}
           position="absolute"
         />
       </Link>

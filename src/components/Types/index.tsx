@@ -1,49 +1,76 @@
-import { Flex, Text, useBreakpointValue } from "@chakra-ui/react";
+import { Flex, useBreakpointValue } from "@chakra-ui/react";
 
 import { TypeBox } from './TypeBox';
+import { TypeFlex } from './TypeFlex';
 
 export function Types() {
   const isWideVersion = useBreakpointValue({
     base: false,
     lg: true,
-  })
+  });
 
   if(!isWideVersion) {
 
     return (
       <Flex
         mx="12"
+        wrap={["wrap", "nowrap"]}
+        justifyContent="space-between"
       >
-        <Text>
+        <Flex
+          w={["50%", "auto"]}
+          mb={["12", "0"]}
+        >
+          <TypeFlex>
             vida noturna
+          </TypeFlex>
+        </Flex>
 
-        </Text>
-        
-        <Text>
-          praia
+        <Flex
+          w={["50%", "auto"]}
+          mb={["12", "0"]}
+          justifyContent="flex-end"
+        >
+          <TypeFlex>
+            praia
+          </TypeFlex>
+        </Flex>
 
-        </Text>
-        
-        <Text>
-          moderno
+        <Flex
+          w={["50%", "auto"]}
+          mb={["12", "0"]}
+        >
+          <TypeFlex>
+            moderno
+          </TypeFlex>
+        </Flex>
 
-        </Text>
-        
-        <Text>
-          clássico
+        <Flex
+          w={["50%", "auto"]}
+          mb={["12", "0"]}
+          justifyContent="flex-end"
+        >
+          <TypeFlex>
+            clássico
+          </TypeFlex>
+        </Flex>
 
-        </Text>
-         
-          e mais...
-        <Text>
-
-        </Text>
+        <Flex
+          w={["100%", "auto"]}
+          justifyContent="center"
+        >
+          <TypeFlex>
+            e mais...
+          </TypeFlex>
+        </Flex>
+          
       </Flex>
     );
   }
 
   return(
     <Flex
+      maxW="1160px"
       mx="36"
       justify="space-between" 
     >

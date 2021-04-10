@@ -24,6 +24,10 @@ export default function Home() {
 
         <Flex 
           bgImage="url('/images/background.png')"
+          bgRepeat="no-repeat"
+          w="100%"
+          maxW="1440px"
+          mx="auto"
           px={["4", "12" ,"36"]}
           pt={["7", "10", "20"]}
           h={["163px", "253px", "335px"]}
@@ -59,32 +63,36 @@ export default function Home() {
             />
           }
         </Flex>
-
-        <Types />
+        
+        <Box 
+          align="center"
+        >
+          <Types />
+        </Box>
         
         <Divider
-          mt="20"
+          mt={["9", "14", "20"]}
           mx="auto"
           bg="dark.headings_and_text"
           h="2px"
-          w="90px"
-          mb="12"
+          w={["60px", "75px", "90px"]}
+          mb={["6", "9", "12"]}
           
         />
 
         <Box
-          fontSize="2.25rem"
+          fontSize={["1.25rem", "1.75rem", "2.25rem"]}
           fontWeight="500"
           align="center"
-          mb="14"
+          mb={["5", "9", "14"]}
         >
           <Text>Vamos nessa?</Text>
           <Text>Então escolha seu continente</Text>
         </Box>
 
         <Box
-          mb="10"
-          mx="28"
+          mb={["9", "10"]}
+          mx={["0", "0", "0", "28"]}
         >
           <Swiper />
         </Box>

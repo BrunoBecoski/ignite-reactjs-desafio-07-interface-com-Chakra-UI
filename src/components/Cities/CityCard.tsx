@@ -12,6 +12,8 @@ export function CityCard({ image, city, country, flag}: CityCardProps) {
     <Box
       borderRadius="4px"
       fontFamily="Barlow"
+      h="72"
+      w="64"
     >
       <Image 
         src={image} 

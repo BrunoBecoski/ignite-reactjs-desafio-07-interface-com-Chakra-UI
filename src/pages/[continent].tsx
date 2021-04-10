@@ -50,9 +50,9 @@ export default function Continent({ about, cities }: ContinentProps) {
         />
 
         <Box
-          mx="36"
-          mt="20"
-          mb="9"
+          mx={["4", "16", "36"]}
+          mt={["6", "14", "20"]}
+          mb={["8", "9"]}
         >
           <Info 
             allCities={cities.length}

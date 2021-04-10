@@ -17,33 +17,29 @@ export function BoxSlide({ url, href, title }: BoxSlideProps) {
       cursor="pointer"
         bgImage={urlFormat}
         bgPosition="center"
-        w="1240px"
-        h="450px"     
+        maxW="1240px"
+        w={["100%", "1240px"]}
+        h={["250px", "450px"]}     
         
       >
         <Text
           d="flex"
           alignItems="center"
           justifyContent="center"
+          maxW="1240px"
           w="100%"
           h="100%"
           color="light.headings_and_text"
           fontWeight="700"
-          fontSize="3rem"
+          fontSize={["1.5rem", "2.25rem", "3rem"]}
           position="absolute"
+          bg="#1c1C1459"
           _hover={{
             color: "highlight"
           }}  
         >
           {title}
         </Text>
-        <div  
-          style={{ 
-            width: "1240px", 
-            height: "450px", 
-            backgroundColor: "#1c140175"
-          }}
-        />
       </Box>
     </Link>
   )
